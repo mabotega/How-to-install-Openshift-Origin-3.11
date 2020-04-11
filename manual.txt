@@ -115,5 +115,5 @@ ansible-playbook -i inventory.ini openshift-ansible/playbooks/deploy_cluster.yml
 # Reset password of system admin on master machine, defining a new one
 htpasswd -c /etc/origin/master/htpasswd admin
 ---------------------------------------------------------------------------------
-#Access the OpenShift Console on the address:
+#Access the OpenShift Console on the address using the user: admin and password set on the step above
 https://master.192.168.0.117.nip.io:8443
