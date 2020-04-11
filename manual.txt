@@ -1,8 +1,8 @@
 # create 3 virtual machines called master, node01 and node02. node02 machine will be my infra server on this setup
 # set FIX IP address on each VM according to the draw
-# This example is based on the environment like follows.
-# For this scenario, I have fixed the IP for my 3 VMs below, on my WI-FI Router, creating on the DHCP Address Reservation, 3 entries with each VM NIC MAC Address created on my Hyper-V
-# During the VM creation, on the CentOS 7 instalation (CentOS-7-x86_64-DVD-1708.iso), on the Network settings, I turn on the NIC and leave it set with DHCP and on the "Host name" field, I have used the names for each VM: master.192.168.0.117.nip.io / node01.192.168.0.118.nip.io / node02.192.168.0.119.nip.io
+# This example is based on the environment like follows below.
+# For this scenario, I have fixed the IP for my 3 VMs below, on my WI-FI Router, creating on the DHCP Address Reservation, 3 entries with each VM NIC MAC Address created on my Hyper-V, setting the IP address set by my router DHCP.
+# During the VM creation, on the CentOS 7 installation screen (CentOS-7-x86_64-DVD-1708.iso), on the Network settings, I turn on the NIC and leave it set with DHCP and on the "Host name" field, I have used the names for each VM: master.192.168.0.117.nip.io / node01.192.168.0.118.nip.io / node02.192.168.0.119.nip.io
 # +-----------------------------------+------+---------------------------------+------+---------------------------------+
 # |          192.168.0.117            |      |        192.168.0.118            |      |          192.168.0.119          |
 # +-----------------------------------+------+---------------------------------+------+---------------------------------+
